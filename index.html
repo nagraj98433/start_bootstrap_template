@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
+  <title>Bootstrap Tempelate Task</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">START BOOTSRAP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#FORTFOLIO">FORTFOLIO<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ABOUT">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#CONTACT">CONTACT</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron green">
+    <img src="./Freelancer - Start Bootstrap Theme_files/avataaars.svg" class="d-block mr-auto ml-auto portfolio">
+    <h1>START BOOTSTRAP</h1>
+    <div class="my-hr">
+      <i class="far fa-star"></i>
+    </div>
+    <p>Graphic Artist - Web Designer - Illustrator</P>
+  </div>
+
+  <div class="container-fluid" id="FORTFOLIO">
+    <h1 class="black">FORTFOLIO</h1>
+    <div class="my-hr-2">
+      <img src="./Freelancer - Start Bootstrap Theme_files/star.png">
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-4 my-col mb-3">
+        <img src="./Freelancer - Start Bootstrap Theme_files/cabin.png" class="img-fluid rounded" />
+        <div class="plus" data-toggle="modal" data-target="#cabinModal">+</div>
+      </div>
+      <div class="col-4 my-col mb-3">
+        <img src="./Freelancer - Start Bootstrap Theme_files/cake.png" class="img-fluid rounded" />
+        <div class="plus" data-toggle="modal" data-target="#cakeModal">+</div>
+      </div>
+      <div class="col-4 my-col mb-3">
+        <img src="./Freelancer - Start Bootstrap Theme_files/circus.png" class="img-fluid rounded" />
+        <div class="plus" data-toggle="modal" data-target="#circusModal">+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 my-col mb-3">
+        <img src="./Freelancer - Start Bootstrap Theme_files/game.png" class="img-fluid rounded" />
+        <div class="plus" data-toggle="modal" data-target="#controllerModal">+</div>
+      </div>
+      <div class="col-4 my-col mb-3">
+        <img src="./Freelancer - Start Bootstrap Theme_files/safe.png" class="img-fluid rounded" />
+        <div class="plus" data-toggle="modal" data-target="#lockedsafeModal">+</div>
+      </div>
+      <div class="col-4 my-col mb-3">
+        <img src="./Freelancer - Start Bootstrap Theme_files/submarine.png" class="img-fluid rounded">
+        <div class="plus" data-toggle="modal" data-target="#submarineModal">+</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid green" style="padding: 50px 15px" id="ABOUT">
+    <h1 class="mt-5">ABOUT</h1>
+    <div class="my-hr-3"><i class="far fa-star"></i></div><br><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 ml-5 mt-5">
+          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source
+            files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+
+        </div>
+
+        <div class="col-lg-4 ml-auto mt-5" style="padding-right: 40px;">
+
+          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source
+            files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization-2.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center mt-4">
+      <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+
+        <i class="fas fa-download mr-2"></i>
+        Free Download!
+      </a>
+    </div>
+
+  </div>
+
+  <div class="container-fluid" style="padding: 50px 15px" id="CONTACT">
+    <div class="row">
+      <div class="col col-6 ml-auto mr-auto">
+        <h2 class="text-secondary text-center">CONTACT ME</h2>
+        <div class="my-hr-4"><img src="./Freelancer - Start Bootstrap Theme_files/star.png"></div><br><br>
+        <form action="">
+          <div class="form-group mt-5">
+
+            <!-- <label for="exampleInputEmail1">Name</label> -->
+            <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name" name="fullname" value=""
+              required pattern="[A-Za-z]{3}" autocomplete="off">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="exampleInputEmail1">Email Address</label> -->
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required
+              autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" value="">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="exampleInputEmail1">Phone Number</label> -->
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Phone Number" required
+              pattern="[0-9]{10}" name="phonenumber" value="" autocomplete="off">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="exampleInputEmail1">Message</label> -->
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Message" name="message"
+              value="" required pattern="[A-Za-z]{3}" autocomplete="off">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div><br><br>
+          <button type="submit" class="btn btn-primary btn-xl">Send</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid violet text-center" style="padding: 50px 15px">
+    <div class="row">
+      <div class="col-lg-4">
+        <h4>LOCATION</h4>
+        <P>2215 John Daniel Drive</P>
+      </div>
+      <div class="col-lg-4">
+        <h4>AROUND THE WEB</h4>
+        <a class="btn-outline-light btn btn-social mx-1" href="#">
+          <i class="fab fa-fw fa-facebook-f"></i>
+        </a>
+        <a class="btn-outline-light btn btn-social mx-1" href="#">
+          <i class="fab fa-fw fa-twitter"></i>
+        </a>
+        <a class="btn-outline-light btn btn-social mx-1" href="#">
+          <i class="fab fa-fw fa-linkedin-in"></i>
+        </a>
+        <a class="btn-outline-light btn btn-social mx-1" href="#">
+          <i class="fab fa-fw fa-dribbble"></i>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <h4>ABOUT FREELANCER</h4>
+        <P>Freelance is a free to use, MIT licensed Bootstrap theme created by<a href="#">Start Bootstrap</a>
+        </P>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cabin Modal -->
+  <div class="modal fade" id="cabinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LOG CABIN</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./Freelancer - Start Bootstrap Theme_files/cabin.png" class="img-fluid" alt="cabin" />
+          <p class="text-dark mt-3 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quo
+            similique nemo, pariatur architecto deserunt voluptatum asperiores officiis assumenda aliquid illo commodi
+            maxime officia distinctio impedit maiores. Incidunt, quos assumenda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cake Modal -->
+  <div class="modal fade" id="cakeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">TASTY CAKE </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./Freelancer - Start Bootstrap Theme_files/cake.png" class="img-fluid" alt="CAKE" />
+          <p class="text-dark mt-3 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quo
+            similique nemo, pariatur architecto deserunt voluptatum asperiores officiis assumenda aliquid illo commodi
+            maxime officia distinctio impedit maiores. Incidunt, quos assumenda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Circus Modal -->
+  <div class="modal fade" id="circusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">CIRCUS TENT </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./Freelancer - Start Bootstrap Theme_files/circus.png" class="img-fluid" alt="Circus" />
+          <p class="text-dark mt-3 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quo
+            similique nemo, pariatur architecto deserunt voluptatum asperiores officiis assumenda aliquid illo commodi
+            maxime officia distinctio impedit maiores. Incidunt, quos assumenda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controller Modal -->
+  <div class="modal fade" id="controllerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">CONTROLLER </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./Freelancer - Start Bootstrap Theme_files/game.png" class="img-fluid" alt="Controller" />
+          <p class="text-dark mt-3 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quo
+            similique nemo, pariatur architecto deserunt voluptatum asperiores officiis assumenda aliquid illo commodi
+            maxime officia distinctio impedit maiores. Incidunt, quos assumenda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Locked safe Modal -->
+  <div class="modal fade" id="lockedsafeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LOCKED SAFE </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./Freelancer - Start Bootstrap Theme_files/safe.png" class="img-fluid" alt="Lockedsafe" />
+          <p class="text-dark mt-3 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quo
+            similique nemo, pariatur architecto deserunt voluptatum asperiores officiis assumenda aliquid illo commodi
+            maxime officia distinctio impedit maiores. Incidunt, quos assumenda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Submarine Modal -->
+  <div class="modal fade" id="submarineModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SUBMARINE </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="./Freelancer - Start Bootstrap Theme_files/submarine.png" class="img-fluid" alt="Submarine" />
+          <p class="text-dark mt-3 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quo
+            similique nemo, pariatur architecto deserunt voluptatum asperiores officiis assumenda aliquid illo commodi
+            maxime officia distinctio impedit maiores. Incidunt, quos assumenda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>

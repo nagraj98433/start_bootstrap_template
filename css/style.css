@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: #2c3e50!important
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+.navbar-light .navbar-brand{
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #1abc9c;
+}
+.navbar{
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-weight: 700;
+}
+.nav-item.nav-link{
+	text-align: right;
+}
+.green{
+	background-color: #1abc9c!important;
+}
+
+.violet{
+	background-color: #2c3e50!important;
+}
+.my-hr{
+	font-size: 2rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid white;
+    text-align: center;
+	position: relative;
+	height: 4rem;
+}
+.my-hr i{
+	position: absolute;
+    z-index: 1;
+    left: calc(50% - 1rem);
+    width: 2.5rem;
+    background: #1abc9c;
+    text-align: center;
+    top: 2.7rem;
+    padding: 0.10rem;
+}
+
+.my-hr-2{
+	font-size: 5rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #2c3e50;
+    text-align: center;
+	position: relative;
+	height: 4rem;
+}
+.my-hr-2 img{
+	position: absolute;
+    z-index: 1;
+    left: calc(50% - 1rem);
+    width: 2.5rem;
+    background: white;
+    text-align: center;
+    top: 2.4rem;
+    padding: 0.10rem;
+}
+
+.my-hr-3{
+	font-size: 2rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid white;
+    text-align: center;
+	position: relative;
+	height: 4rem;
+}
+.my-hr-3 i{
+	position: absolute;
+    z-index: 1;
+    left: calc(50% - 1rem);
+    width: 2.5rem;
+    background: #1abc9c;
+    text-align: center;
+    top: 2.7rem;
+    padding: 0.10rem;
+}
+
+
+.my-hr-4{
+	font-size: 5rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #6c757d;
+    text-align: center;
+	position: relative;
+	height: 4rem;
+}
+.my-hr-4 img{
+	position: absolute;
+    z-index: 1;
+    left: calc(50% - 1rem);
+    width: 2rem;
+    background: white;
+    text-align: center;
+    top: 2.7rem;
+    padding: 0.25rem;
+}
+
+
+.portfolio{
+	width: 240px;
+	height: 255px;
+	margin: 0px  auto;
+}
+h1, h2, h4, p{
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	
+}
+.black{
+	color: #2c3e50;
+}
+
+.text-center{
+	text-align: center;
+	color: #2c3e50;
+
+}
+.mt-4{
+	margin-top: 1.5rem;
+}
+.btn-xl{
+	padding: 1rem 1.75rem;
+	font-size: 1.25rem;
+}
+.btn-outline-light{
+	color: #f8f9fa;
+	border-color: #f8f9fa;
+}
+.btn{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border:0.125rem solid transparent;
+	line-height: 1.5;
+	border-radius: .5rem;
+}
+a{
+	text-decoration: none;
+}
+.text-secondary{
+	color: #2c3e50;
+}
+.text-center{
+	text-align: center;
+}
+.btn{
+	cursor: pointer;
+}
+.btn-xl{
+	padding: 1rem 1.75rem;
+	font-size: 1.25rem;
+}
+.btn-primary{
+	color: #fff;
+	background-color: #1abc9c;
+	border-color: #1abc9c
+}
+.btn{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	line-height: 1.5;
+	border-radius: 5rem;
+}
+.btn-social{
+	border-radius: 100%;
+	display: inline-flex;
+	width: 3.25rem;
+	height: 3.25rem;
+	font-size: 1.25rem;
+	justify-content: center;
+	align-items: center;
+
+}
+.mx-1{
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
+.btn-outline-light{
+	color: #f8f9fa;
+	border-color: #f8f9fa 	 	
+
+}
+
+.fab{
+	font-family: "font awesome 5 brands";
+	font-style: normal;
+
+}
+.fa-fw{
+	text-align: center;
+	width: 1.25rem;
+}
+.form-control{
+	    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.my-col{
+  position: relative;
+  overflow: hidden;
+}
+.my-col .plus{
+  font-size: 10rem;
+  position: absolute;
+  width: calc(100% - 2rem);
+  height: 100%;
+  top: 0;
+  left: 1rem;
+  text-align: center;
+  background-color: rgba(23,45,65, 0.5);
+  color: white;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+.my-col:hover .plus{
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
